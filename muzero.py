@@ -20,6 +20,8 @@ import self_play
 import shared_storage
 import trainer
 
+import warnings
+warnings.filterwarnings("ignore", message=".*CUDA initialization.*")
 
 class MuZero:
     """
